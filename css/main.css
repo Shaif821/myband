@@ -1,0 +1,116 @@
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
+
+body {
+    font-family: Century GOthic;
+    padding: 0;
+    margin: 0;
+    background: lightgrey;
+}
+
+.desc {
+    background-color: #fff;
+    border: 1px solid #000;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -20px;
+    width: 200px;
+}
+
+footer {
+    font-size: 30px;
+}
+
+header {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1vw;
+    font-family: 'Raleway', Century Gothic;
+    letter-spacing: 0.5em;
+
+}
+
+ ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type=search] {
+    width: 50%;
+    color: white;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 18px;
+    border-radius: 0.1em;
+    background: black;
+    transition: ease-in-out 0.5s;
+}
+
+input[type=search]:hover {
+    transition: ease-in-out 0.5s;
+    color: black;
+    background: white;
+}
+
+/*articles*/
+section{
+    margin-top: 14%;
+    margin-left: 2%;
+    padding-left: 0.5%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: white;
+    width: 40%;
+    height: 70%;
+}
+
+section img { 
+    width: 99%;
+    height: 70%;
+}
+
+/*style="width: 750px; height: 350px;" */
+/*Article/about*/
+.about {
+    margin-top: 14%;
+}
+footer {
+    background-color:black;
+    text-align: center;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+footer:hover {
+    transition: ease-in-out 0.5s;
+    background-color: white;
+    color: black;
+}
