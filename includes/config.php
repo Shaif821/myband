@@ -11,8 +11,14 @@ setlocale(LC_ALL, 'nl_NL');
 
 // Database settings
 define('DB_HOST','localhost');
-define('DB_NAME','artiest');
+define('DB_NAME','MyBand');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','');
+
+$conn = mysqli_connect("localhost", "root", "", "MyBand");
+
+if(!$conn){
+    die("Connection failed: ". mysqli_connect_error());
+}
 
 ?>

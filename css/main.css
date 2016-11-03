@@ -28,7 +28,6 @@ header {
     margin: 0;
     padding: 0;
     position: fixed;
-    
 }
 
 ul {
@@ -80,28 +79,78 @@ input[type=search]:hover {
 }
 
 /*articles*/
-section{
-    margin-top: 14%;
-    margin-left: 2%;
-    padding-left: 0.5%;
+
+.wrapper {
     display: flex;
-    flex: 1;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    height: auto;
     background: white;
-    width: 40%;
-    height: 70%;
+    margin: 0 auto; 
 }
 
-section img { 
+
+
+section{
+    margin-top: 7%;
+    padding: 2em;
+    min-width: 10em;
+    font-weight: 100;
+    border: 1px solid black;
+    flex: 0 0 40em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%:
+}
+ iframe {
     width: 99%;
-    height: 70%;
+    height: 500px;
 }
 
-/*style="width: 750px; height: 350px;" */
-/*Article/about*/
+ .artimg { 
+    width:700px;
+    height: 500px;
+}
+
+/*Einde artikel*/
+
+    
 .about {
     margin-top: 14%;
 }
+/*Einde about*/
+
+
+/*Inlog*/
+.inlog {
+    margin-left: 41%;
+    margin-top: 15%;
+    background: white;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+}
+
+/*admin*/
+
+.admin {
+   background-color: black;
+   color: white;
+    text-align:center; 
+    margin-top:10%;
+}
+
+/*Einde inlog*/
+
 footer {
     background-color:black;
     text-align: center;
